@@ -16,6 +16,9 @@
                 </router-link>
               </a>
           </li>
+      </ul>
+      <div class="tileFrexBox">
+        <div class="tileItem">
           <li>1</li>
           <li>2</li>
           <li>3</li>
@@ -31,7 +34,8 @@
           <li>13</li>
           <li>14</li>
           <li>15</li>
-      </ul>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -101,6 +105,18 @@ li {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.tileFrexBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tileItem {
+  background-color: cadetblue;
+  max-width: 960px;
+  height: 100%;
+  text-align: left;
 }
 
 </style>
